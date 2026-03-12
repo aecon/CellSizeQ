@@ -575,8 +575,8 @@ if __name__ == "__main__":
     input_dir_nuclei = image_folder + os.sep + "nuclei"
 
     # OUTPUT FILES
-    cell_output_csv  = "out_%s_cells_size.csv" % plate_name 
-    nucleus_output_csv = "out_%s_nuclei_size.csv" % plate_name 
+    cell_output_csv  = "results" + os.sep + "out_%s_cells_size.csv" % plate_name
+    nucleus_output_csv = "results" + os.sep + "out_%s_nuclei_size.csv" % plate_name
 
     main(input_dir_cells, input_dir_nuclei, cell_output_csv, nucleus_output_csv, plate_name)
 
