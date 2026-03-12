@@ -5,7 +5,7 @@
 
 Clone the repository:
 ```
-https://github.com/aecon/CellSizeQ.git
+git clone https://github.com/aecon/CellSizeQ.git
 ```
 
 Create a new conda environment with dependencies:
