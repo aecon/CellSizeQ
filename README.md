@@ -1,5 +1,7 @@
 # Cell and Nucleus size quantification
 
+Repurposing of images from high-content arrayed CRISPR screens, for quantification of cell/nuclei morphology changes.
+
 
 ## Installation
 
